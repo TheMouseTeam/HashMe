@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/welcome_gradient"
+    tools:context=".EncryptionKeyActivity">
+
+    <ImageView
+        android:layout_margin="100dp"
+        android:layout_weight="0.5"
+        android:src="@drawable/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <EditText
+            android:digits="0123456789QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm"
+            android:id="@+id/key_txt"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:textColorHint="#FFFFFF"
+            android:hint="@string/type_to_encrypt"
+            android:layout_margin="20dp"
+            android:textColorHighlight="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_next"
+            android:textColor="@color/colorWhite"
+            android:text="@string/text_encryption"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:background="@drawable/round_welcome_button"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="From SeriesMe"/>
+
+        <ImageView
+            android:src="@drawable/seriesme"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

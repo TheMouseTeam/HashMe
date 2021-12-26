@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/cancel_txt"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|start"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="@string/cancel"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/encrypt_btn"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:text="@string/encrypt"
+                    android:background="@drawable/round_welcome_button"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:gravity="top|start"
+            android:src="@drawable/ic_launcher"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_weight="8"
+            android:layout_width="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="match_parent"
+            app:counterEnabled="true"
+            app:counterMaxLength="50">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/text_edit"
+                android:gravity="start"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="@string/what_to_encrypt" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

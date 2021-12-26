@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HashMe</string>
+    <string name="type_key">Πληκτρολόγησε το κλειδί σου</string>
+    <string name="key_range">Το κλειδί σου πρέπει να περιέχει 3-10 χαρακτήρες</string>
+    <string name="decrypted_message">Αποκωδικοποιημένο Μήνυμα</string>
+    <string name="new_message_to_encrypt">Νέο Μήνυμα για Κωδικοποίηση</string>
+    <string name="subject">HashMe: Το θέμα σου</string>
+    <string name="hashme_encrypted_email">"HashMe κωδικοποιημένο email:"</string>
+    <string name="ending">Το μήνυμα ειναι κωδικοποιημένο με το κλειδί που τελειώνει σε ***</string>
+    <string name="enter_text">Πληκτρολόγησε το μήνυμα σου πρώτα</string>
+    <string name="chars">Μέγιστος αριθμός χαρακτήρων στο μήνυμα είναι 50</string>
+    <string name="type_to_decrypt">Πληκτρολόγησε το κείμενο σου για αποκωδικοποίηση</string>
+    <string name="type_to_encrypt">Πληκτρολόγησε το κείμενο σου για κωδικοποίηση</string>
+    <string name="use_key">Χρησιμοποίησε το κλειδί</string>
+    <string name="text_encryption">Κωδικοποίηση Κειμένου</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="encrypt">Κωδικοποίηση</string>
+    <string name="what_to_encrypt">Τι θέλεις να κωδικοποίησεις ?</string>
+    <string name="send_email">Στείλε email με...</string>
+
+</resources>

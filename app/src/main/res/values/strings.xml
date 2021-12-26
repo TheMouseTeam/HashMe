@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HashMe</string>
+    <string name="type_key">Type Your Key</string>
+    <string name="key_range">Your key should have between 3-10 characters</string>
+    <string name="decrypted_message">Decrypt Message</string>
+    <string name="new_message_to_encrypt">New Message To Encrypt</string>
+    <string name="subject">HashMe: Your subject</string>
+    <string name="hashme_encrypted_email">HashMe encrypted email:</string>
+    <string name="ending">The message is encrypted with the key ending in ***</string>
+    <string name="enter_text">Enter your text first</string>
+    <string name="chars">Max number of characters is 50</string>
+    <string name="type_to_decrypt">Type the key to decrypt the text</string>
+    <string name="type_to_encrypt">Type the key to encrypt your text</string>
+    <string name="use_key">Use the key</string>
+    <string name="text_encryption">Text Encryption</string>
+    <string name="cancel">Cancel</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="what_to_encrypt">What do you want to encrypt?</string>
+    <string name="send_email">Send email with...</string>
+
+</resources>
